@@ -1,0 +1,38 @@
+/** Inventory:
+Choclate chip cookies (20)
+Sugar cookies (15)
+Snickerdoole Cookies (15)
+Peanutbutter Cookies (10)
+Lemon Cookies (10)
+Brownies (20)
+Fudge Brownies (15)
+Dark Chocolate Brownies (15)
+Walnut Brownies (10)
+Triple Chocolate Brownies (10)
+Chocolate Chip Muffins (20)
+Blueberry Muffins (15)
+Banana nut Muffins (15)
+Lemon Muffins (10)
+Cinnamon Muffins (10)
+**/
+
+CREATE TABLE inventory (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER);
+
+INSERT INTO inventory VALUES (1, "Chocolate Chip cookies", 20);
+INSERT INTO inventory VALUES (2, "Sugar Cookies", 15);
+INSERT INTO inventory VALUES (3, "Snickerdoodle Cookies", 15);
+INSERT INTO inventory VALUES (4, "Peanutbutter Cookies", 10);
+INSERT INTO inventory VALUES (5, "Lemon cookies", 10);
+INSERT INTO inventory VALUES (6, "Brownies", 20);
+INSERT INTO inventory VALUES (7, "Fudge bronwies", 15);
+INSERT INTO inventory VALUES (8, "Dark Chocolate Brownies", 15);
+INSERT INTO inventory VALUES (9, "Walnut Brownies", 10);
+INSERT INTO inventory VALUES (10, "Triple Chocolate Brownies", 10);
+INSERT INTO inventory VALUES (11, "Chocolate Chip Muffins", 20);
+INSERT INTO inventory VALUES (12, "Blueberry Muffins", 15);
+INSERT INTO inventory VALUES (13, "Banana Nut Muffins", 15); 
+INSERT INTO inventory VALUES (14, "Lemon Muffins", 10);
+INSERT INTO inventory VALUES (15, "Cinnamon Muffins", 10);
+
+SELECT * FROM Inventory;
+SELECT * FROM inventory ORDER BY quantity;
